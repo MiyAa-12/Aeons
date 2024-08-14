@@ -15,6 +15,10 @@
         width: 60%;
         text-align: center;
     }
+    
+    .botoes-carrossel {
+        gap: 3px;
+    }
 }
 
 @media (max-width: 425px) {
@@ -30,4 +34,9 @@
         min-height: 70vh;
         gap: 50px;
     }
+    
+    .botoes-carrossel {
+        gap: 1px;
+        margin-left: auto;
+    }    
 }
